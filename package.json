@@ -1,0 +1,37 @@
+{
+  "name": "mm-class",
+  "version": "0.0.1",
+  "description": "MM Class",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "xo && nyc ava"
+  },
+  "author": "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "esm": "^3.0.84",
+    "nyc": "^13.0.1",
+    "xo": "^0.23.0"
+  },
+  "dependencies": {
+    "micromongo": "^0.2.12"
+  },
+  "keywords": [
+    "micro-mongo",
+    "mongo",
+    "micromongo",
+    "mm",
+    "es6",
+    "collection",
+    "document",
+    "nodb",
+    "no-db"
+  ],
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  }
+}
