@@ -7,6 +7,10 @@
   "scripts": {
     "test": "xo && nyc ava"
   },
+  "files": [
+    "index.js",
+    "main.js"
+  ],
   "author": "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)",
   "license": "MIT",
   "devDependencies": {
