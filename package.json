@@ -1,7 +1,7 @@
 {
-  "name": "mm-class",
+  "name": "micromongo-class",
   "version": "0.0.1",
-  "description": "MM Class",
+  "description": "MicroMongo Class",
   "main": "index.js",
   "module": "main.js",
   "scripts": {
